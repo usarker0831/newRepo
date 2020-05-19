@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 1.406 s <<< FAILURE! - in TestSuite
+com.TestRunner.TestRunner.setUpClass  Time elapsed: 1.201 s  <<< FAILURE!
+cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in com.StepDef.UserRegistration.i_am_on_the_application_homepage() in file:/D:/EclipesScripts%202019-06/FlightProject/target/test-classes/ and com.StepDef.FlightBooking.i_am_on_the_application_homepage() in file:/D:/EclipesScripts%202019-06/FlightProject/target/test-classes/
+
+com.TestRunner.TestRunner.tearDownClass  Time elapsed: 1.255 s  <<< FAILURE!
+java.lang.NullPointerException
+
