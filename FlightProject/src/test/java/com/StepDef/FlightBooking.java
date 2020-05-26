@@ -74,7 +74,7 @@ public class FlightBooking extends Utilities {
 
 		pof.PassFirstName("Utpal");
 		pof.PassLastName("Sarker");
-		pof.Meal1("Hindu");
+		pof.Meal1("Low Calorie");
 		pof.Pass2FirstName("Sanchita");
 		pof.Pass2LastName("Sarkar");
 		pof.Meal2("Vegetarian");

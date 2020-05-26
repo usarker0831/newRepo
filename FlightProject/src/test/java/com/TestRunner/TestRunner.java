@@ -6,8 +6,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		features = {"Features"},
 		glue = "com.StepDef",
-		tags = "@userRegistration",
-		//tags = "@flightBooking",
+		//tags = "@userRegistration",
+		tags = "@flightBooking",
 		plugin = "pretty",
 		monochrome=true
 		)

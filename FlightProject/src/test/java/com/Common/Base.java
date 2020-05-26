@@ -13,7 +13,7 @@ public class Base {
 
 	public WebDriver driver;
 
-	String browser = new String("chrome");
+	String browser = new String("firefox");
 
 	public void getDriver() {
 
@@ -39,6 +39,6 @@ public class Base {
 	
 	public void closeBrowser() {
 		driver.close(); // closes the active browser
-		driver.quit(); // closes all the browser
+		//driver.quit(); // closes all the browser
 	}
 }
